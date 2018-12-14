@@ -2,13 +2,13 @@
 > This is my Docker PHP development environment. I use it mostly for developing Symfony 4+ apps but sometimes also for vanilla and Laravel 5 projects. Updated for php 7.3.
 
 ## Table of contents
-* [Features](#general-info)
-* [Setup](#setup)
-* [Run](#technologies)
-* [Example setup & running for Symfony 4 project ](#setup)
-* [How connect to database via PHP Storm?](#setup)
-* [Issues](#status)
-* [Status](#inspiration)
+* [Features](#Features)
+* [Setup](#Setup)
+* [Run](#Run)
+* [Example setup & running for Symfony 4 project ](#Example setup & running for Symfony 4 projec)
+* [How connect to database via PHP Storm?](#Example setup & running for Symfony 4 project)
+* [Issues](#Issues)
+* [Status](#Status)
 * [Contact](#contact)
 
 ## Features
@@ -129,7 +129,6 @@ docker-compose up --build
 ```bash
 sudo chown -R $USER Entity Repositories etc...
 ```
-
 
 ## Status
 Project is: in progress
