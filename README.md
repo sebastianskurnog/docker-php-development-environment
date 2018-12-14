@@ -6,7 +6,7 @@
 * [Setup](#Setup)
 * [Run](#Run)
 * [Example setup & running for Symfony 4 project ](#example)
-* [How connect to database via PHP Storm?](#Example setup & running for Symfony 4 project)
+* [How connect to database via PHP Storm?](#how)
 * [Issues](#Issues)
 * [Status](#Status)
 * [Contact](#contact)
@@ -111,7 +111,7 @@ docker-compose up --build
 5. Go to http://localhost:8000/public/ (you also need apache bundle to run s4 app without build-in server feature).
 
 
-## How connect to database in docker via PHP Storm?
+## <a name="how"></a> How connect to database in docker via PHP Storm?
 1. Click on tab 'database'
 2. Click on '+' button and select Data source -> Mysql
 3. Fill in the fields:
