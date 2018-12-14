@@ -1,0 +1,33 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    ports:
+    - "8080:80"
+    volumes:
+    - .:/var/www/html
+    depends_on:
+    - mysql
+    links:
+    - mysql:mysql
+    env_file: .docker/env/docker.env
+
+  mysql:
+    image: mysql:5.7
+    ports:
+    - "13306:3306"
+
+    environment:
+      MYSQL_DATABASE: database_name
+      MYSQL_ROOT_PASSWORD: 123qwe
+      MYSQL_USER: someuser
+      MYSQL_PASSWORD: 123qwe
+
+    volumes:
+    - mysql:/var/dockervolumes
+
+volumes:
+  mysql:
+    driver: "local"
