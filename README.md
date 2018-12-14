@@ -134,4 +134,4 @@ sudo chown -R $USER Entity Repositories etc...
 Project is: in progress
 
 ## Contact
-Created by [@sebastianSkurnog](https://www.skurnog.com/) - feel free to contact me!
+Created by [@sebastianSkurnog](http://www.skurnog.com/) - feel free to contact me!
