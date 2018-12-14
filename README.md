@@ -5,7 +5,7 @@
 * [Features](#Features)
 * [Setup](#Setup)
 * [Run](#Run)
-* [Example setup & running for Symfony 4 project ](#Example setup & running for Symfony 4 projec)
+* [Example setup & running for Symfony 4 project ](#example)
 * [How connect to database via PHP Storm?](#Example setup & running for Symfony 4 project)
 * [Issues](#Issues)
 * [Status](#Status)
@@ -95,7 +95,7 @@ docker-compose up --build
 
 Go to http://localhost:8000/ and have fun!
 
-## Example setup & running for Symfony 4 project
+## <a name="example"></a> Example setup & running for Symfony 4 project
 1. Copy files to your root Symfony 4 application directory
 2. Configure docker files (see 'setup' section)
 3. In /.env file change default doctrine DATABASE_URL env to:
