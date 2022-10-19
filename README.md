@@ -124,7 +124,7 @@ docker-compose up --build
  
 
 ## Issues
-* When you using maker bundle in symfony project in the container, it creates at first time new catalogs (like Entity, Repositories etc.) with root owner permissions in your local app volume. So if you are not root user on your local machine - you can't edit files in catalogs. It can be easy fixed. Just change permissions:
+* (ONLY ON LINUX HOST) When you using maker bundle in symfony project in the container, it creates at first time new catalogs (like Entity, Repositories etc.) with root owner permissions in your local app volume. So if you are not root user on your local machine - you can't edit files in catalogs. It can be easy fixed. Just change permissions:
 
 ```bash
 sudo chown -R $USER Entity Repositories etc...
